@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "banco-projeto-hardware",
+  "private_key_id": "a2d70a66101027c03e72cf6e204e8d77bb59a1eb",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQDXheOzINvmdfDV\nYlRLKV2M80HbX4IkYFWY8D+ReiYLpYDTzV8BMxwxub0V1Qm9K3IrWvyuIfi+KKWl\nD/0HFRJOumBizJl3Mq6hZVWybYAqJvlQnavSv/Ilm2MNBQjIUFOgXPE+Xv0lztRq\nFuXXSJy8CrFyNSBFBA+9Y8wQ6r8bl33n5dAtzqg/BgFrNjRhbBPYmLJZQDBmRNzs\nzppqF8tq9cmL9SUysjKO8gRfhMUF+sN+v9q1H4tK2SMYtbauwB/hJePRGPuFTi8Y\nmSHcTZ+1E1AG8JaIEKxN2GDnr2jJ2a7qJIKpnxx6fBQ16sYVpRnbYZExf5KbSHwS\nN5Fgt8w7AgMBAAECggEAJcx/oNz0dDjfIi16pyv8EkpflH/trT+QA6CvJW6M2aIP\nNBZiwS0blsUCmp+gc6L5BQ2SH2Ap5f/u/UIOmH1jlpctbGaBy9wBsKC7JO37emkX\ndMISboXnjBzyhEgLwEYGRKvIS64RK95YdrrJWLaNdpVRhbw3iqMpt4eXNKhXGBlp\nN81a/1xQslYwHPo22ehHUifp54itWDgAYI31vkIBKeoUd8ESFLMwqociSjd8YqSm\n1HQXXFLqHowN6bmOT/ukG2khN5pAFzMrO3T0cmJ6fukqQH43ydLi6jVqV5HOHYZ4\npok07TGquT9BgQAOgYQLnoKXLnDkMSEfSF4G18YE0QKBgQDx9QIIPChf3Kzu+Jjt\nZyDcUm0WlP+FVa9dXmRiKEwTtA1B3lRjUg13Lu38UWq5hIUy9jbhj+5/RZpOI7Z0\nssENgg9jZCpx2CmY8h3iRHIjqnLyoABr31XoZIU6995QgMvLxd2zsusyi27rdC4T\nR5kDeDNrK9xIfeBynvGILRIOhQKBgQDkCB/877/ZrOWDKkQaHkLQqPoeHhY96N1K\nn955u7iTgFAiEyf/46TsmoH8iEsqJld2wwCJPTH495xdtwv/LVpud49h/Cffv95I\n8J9U/U9qXum/w9k4PpBXjbujcU5F9XmMb0skK1d8HC0JZDPSnpgzX7N6gDlY8qiS\nyziDCWZLvwKBgEX81gqlxBP+lDNHy4yYUSQJ364xiTv7Tg+W9ziBaYglg9QyyHw2\nRtjbxVFAB7wD/jeAit1yMc20x26k2+kjr74Figf4+GIX4ehw2H4TyGRSsI9IAvcx\nEft34CXvfuoQZ2LZKEkLjwb+2CXZZF6FTlh3k4ADnuOFLcBaA4mdZ+S1AoGAWMuR\nKT1yx6C7/seGnWULP5WNUA0HPDRhd52pVF31Efr1OU+cU9ihcED6PQwVuOQVSvnE\nS6y4uOoyyYtt8IAIptuHyfAW1towBNcuNDovoowzGal5/JzgODfIyWxlvnhITJdJ\n+1ulRX7zSqTqSSnYuqiZiypDKo/TdNYNu3j9jKECgYBcPiLBsXvl5yKPzZ8XCSjS\nMp0yyCDEKgk9T3aVD1XxwtxPqt5K/Dw5FPewZm7F5B7E4r5mJZJcy//J+DL04Vbp\nnFE1R9jn0yAWx+LF7HUAZSR+8xBmkyIN30EBJCsn4ylydG1jsG94+UC7iAfdZHQa\nZKJfSzw+jSR3dHZjNIBtvQ==\n-----END PRIVATE KEY-----\n",
+  "client_email": "firebase-adminsdk-bq7l8@banco-projeto-hardware.iam.gserviceaccount.com",
+  "client_id": "112401686293707724911",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-bq7l8%40banco-projeto-hardware.iam.gserviceaccount.com"
+}
