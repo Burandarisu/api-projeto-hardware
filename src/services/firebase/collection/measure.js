@@ -1,29 +1,45 @@
-const db = require('../config')
-const { isTrue } = require('../../util')
+const formatISO = require("date-fns/formatISO");
 
-const Measure = db.collection('measures')
+const db = require("../config");
+const { isTrue } = require("../../util");
 
-async function get (query) {
-  let promise
-  if (isTrue(query?.last)) {
-    promise = Measure.orderBy('created_at', 'desc').limit(1).get()
-  } else {
-    promise = Measure.orderBy('created_at', 'desc').limit(15).get()
+const Measure = db.collection("measures");
+
+async function get(query) {
+  let promise = Measure.orderBy("created_at", "desc");
+
+  if (query?.created_at_begin) {
+    promise = promise.where(
+      "created_at",
+      ">=",
+      new Date(query.created_at_begin).getTime()
+    );
   }
-  const res = await promise
-  const ret = []
-  res.forEach((doc) => {
-    ret.push(doc.data())
-  })
+  if (query?.created_at_end) {
+    promise = promise.where(
+      "created_at",
+      "<=",
+      new Date(query.created_at_end).getTime()
+    );
+  }
 
-  return ret
+  if (query?.per_page) {
+    query.per_page = parseInt(query.per_page, 10);
+  }
+  const res = await promise.limit(query?.per_page || 15).get();
+  const ret = [];
+  res.forEach((doc) => {
+    ret.push(doc.data());
+  });
+
+  return ret;
 }
 
-async function push (body) {
+async function push(body) {
   return await Measure.add({
     ...body,
-    created_at: new Date().getTime()
-  })
+    created_at: new Date().getTime(),
+  });
 }
 
-module.exports = { Measure, get, push }
+module.exports = { Measure, get, push };
