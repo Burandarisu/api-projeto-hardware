@@ -4,9 +4,11 @@
   "description": "",
   "main": "index.js",
   "dependencies": {
+    "aedes": "^0.46.1",
     "date-fns": "^2.24.0",
     "express": "^4.17.1",
-    "firebase-admin": "^9.11.1"
+    "firebase-admin": "^9.11.1",
+    "mqtt": "^4.2.8"
   },
   "devDependencies": {
     "eslint": "^7.32.0",
