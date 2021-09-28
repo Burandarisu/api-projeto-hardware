@@ -22,4 +22,7 @@ broker.listen(port, function () {
       console.log({ message: message.toString() });
     }
   });
+  client.on("error", (error) => {
+    console.log(error);
+  });
 });
